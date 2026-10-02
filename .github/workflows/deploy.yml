@@ -22,5 +22,3 @@ jobs:
 
       - name: Run python
         run: python3 main.py
-        with:
-          python-version: ${{ matrix.python-version }}
